@@ -14,8 +14,8 @@
   <table class="job-listing">
     <tbody>
       <tr>
-        <th:block th:each="job : ${list}">
-          <th th:text = "${job.value}"></th>
+        <th:block th:each="job : ${jobs}">
+          <th th:text = "${job}"></th>
         </th:block>
       </tr>
     </tbody>
